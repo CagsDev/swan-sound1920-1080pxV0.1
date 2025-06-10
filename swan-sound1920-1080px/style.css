@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {background-color: #31304D;}
+
+.ustDiv {
+    width: 100%;
+    height: 100px;
+    background-color: #161A30;
+}
+
+#logo1{
+    width: 75px;
+    height: 75px;
+    margin-left: 35px;
+    float: left;
+}
+
+#text1{
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+    color: #fff;
+    float: left;
+}
+
+.bar-1 {
+    color: #B6BBC4;
+    font-size: 30px;
+    margin-left: 190px;
+    margin-top: 15px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: box-shadow 0.3s ease;
+}
+
+.bar-1:hover {
+    color: #fff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: inherit;
+}
+  
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+  
+        /*-arama--*/
+
+.search-container {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 1500px;
+}
+        
+.search-box {
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid rgb(49, 48, 77);
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+}
+        
+.search-btn {
+    padding: 11px;
+    font-size: 18px;
+    background-color: #31304D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    margin-left: 2px;
+    transition: box-shadow 0.3s ease;
+}
+        
+.search-btn:hover {
+    box-shadow: 5px 5px 30px rgba(182, 187, 196, 0.3);
+}
+
+
+    /*--------  ALT DIV  ------*/
+
+
+.sol {
+    float: left;
+    margin-top: 50px; 
+    width: 45%; /*listelerin uzunluk oranı buna bağldırı!!!!!*/
+    margin-left: 10px;
+
+}
+
+#liste-oneri {
+    color: #B6BBC4;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#liste-oneri:hover{
+    color: #fff;
+}
+
+.list-box {
+    width: 100%;
+    height: 150px;
+    background-color: #161A30;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.list-box:hover {
+    box-shadow: 5px 5px 30px rgba(182, 187, 196, 0.3);
+}
+
+.list-foto {
+    width: 100px;
+    height: 100px;
+    margin-left: 23px;
+    margin-top: 23px;
+    float: left;
+    border-radius: 10px;
+}
+
+.list-header {
+    float: right;
+    color: rgb(182, 187, 196);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 55px;
+    margin-right: 230px;
+
+}
+
+.list-header-1 {
+    float: right;
+    color: #B6BBC4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 55px;
+    margin-right: 343px;
+}
+
+.rapList {margin-right: 347px;}
+
+.anadoluRock {margin-right: 233px;}
+
+.arabesk {margin-right: 286px;}
+
+.metal {margin-right: 352px;}
+
+
+/*-------  SAĞ  ------*/
+
+
+.sag {
+    float: right;
+    margin-right: 10px;
+    width: 45%;
+    margin-top: 51px;
+    color: #B6BBC4;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#new-list:hover {
+    color: #fff;
+}
+
+.ayrac-text {
+    font-size: 13px;
+}
+
+.yeni-eklenen-list{
+    background-color: #161A30;
+    height: 1600px;
+    border-radius: 10px;
+}
+
+.album-foto {
+    margin: 20px;
+    float: left;
+    width: 15%;
+}
+
+#header-2001 {
+    float: left;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+#mdc-2001 {
+    margin-top: 30px;
+}
+
+.music-2001 {
+    float: right;
+    margin-right: 170px;
+    background-color: #eee;
+    width: 500px;
+}
+.radius {
+    border-radius: 10px;
+}
+
+
+/*-----------SOL ALT - LİSTELER------------*/
+
+
+.kullanici-listeleri {
+    float: left;
+    margin-top: 111px;
+    width: 100%;
+}
+
+#kullist-id {
+    color: #B6BBC4;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#kullist-id:hover {
+    color: #fff;
+}
+
+.kullist-div {
+    width: 100%;
+    height: 150px;
+    color: #B6BBC4;
+    background-color: #161A30;
+    border-radius: 10px;
+}
+
+.pl-foto{
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+    border-radius: 10px;
+}
+
+.kullist-text {
+    float: right;
+    margin-right: 460px;
+    margin-top: 50px;
+    float: right;
+    color: rgb(182, 187, 196);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.kullist-text:hover{
+    color: #fff;
+}
+
+.kullist-cr {
+    margin-left: 143px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.kullist-cr:hover {
+    color: #fff;
+}
+
+/*id'ler*/
+
+.anadolu-rock-pl {margin-right: 410px;}
+.gece-pl {margin-right: 390px;}
+.piyasalik {margin-right: 627px;}
+
+
+/*----ORTA ALT-----*/
+
+
+.orta-alt-header {
+    margin-top: 1800px;
+    margin-left: 410px;
+    color: #B6BBC4;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.orta-alt-header:hover {
+    color: #fff;
+}
+
+.orta-alt {
+    width: 1100px;
+    height: 2250px;
+    background-color: #161A30;
+    margin-left: 410px;
+    border-radius: 10px;
+    color: #B6BBC4;
+}
+
+.album-foto-encok {
+    margin: 20px;
+    float: left;
+    width: 15%;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.header-encok {
+    float: left;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.music-encok {
+    float: right;
+    margin-right: 100px;
+    background-color: #eee;
+    width: 775px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.music-class {
+    border-radius: 4px;
+}
+
+#onnumara {
+    margin-right: 93px;
+    float: right;
+    margin-right: 1 px;
+    background-color: #eee;
+    width: 775px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+/*---- EN ALT KISIM ----*/
+
+
+.alt-kisim {
+    width: 96.86%;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #161A30;
+    color: #B6BBC4;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+#github-hover {
+    color: #B6BBC4;
+}
+
+#github-hover:hover {
+    color: #fff;
+}
+
+
+
+            /*      LİSTELER HTML       */
+
+
+
+.pl-headers {
+    float: left;
+    margin-top: 50px;
+    color: rgb(182, 187, 196);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.kullanici-listeleri-page-left {
+    float: left;
+    margin-left: 10px;
+    width: 45%;
+    margin-top: 51px;
+    color: #B6BBC4;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#kullist-text-header {
+    float: left;
+    margin-right: 460px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.kullist-user {
+    margin-left: 140px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.piyasalik-2 {margin-left: 15px;}
+.warband-list {margin-left: 15px;}
+.lana-list {margin-left: 15px;}
+.behzat-list{margin-left: 15px;}
+
+
+/*    cags listeler    */
+
+
+.cags-lists {
+    float: right;
+    margin-right: 10px;
+    width: 45%;
+    margin-top: 51px;
+    color: #B6BBC4;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cags-lists-header {
+    float: right;
+    margin-right: 630px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.my-list {
+    width: 100%;
+    height: 2357px;
+    border-radius: 10px;
+    background-color: #161A30;
+}
+
+.my-pl-foto {
+    float: left;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.my-pl-header {
+    float: right;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.my-pl-desc {
+    font-size: 15px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#special-number {
+    margin-top: 50px;
+}
+
+.my-pl-numbers {
+    margin-left: 10px;
+    margin-top: 150px;
+    font-size: 15px;
+    color: #676d79;
+}
+
+.my-pl-text {
+    float: right;
+}
+
+.my-pl-span {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.my-pl-music-foto {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    float: left;
+}
+
+
+
+        /*  Listeler HTML şeyi  */
+
+.html-list-box-header {
+    color: #fff;
+    float: right;
+    margin-top: 70px;
+    margin-right: 1206px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.html-list-box{
+    width: 50%;
+    height: 10000px;
+    background-color: #161A30;
+    color: #B6BBC4;
+    margin-left: 25%;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.html-list-box-sarki-foto {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+    border-radius: 10px;
+}
+
+.music-baslik {
+    float: left;
+    font-size: 25px;
+    margin-top: 35px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.html-list-box-sarki {
+    float: right;
+    margin-right: 210px;
+    background-color: #eee;
+    width: 500px;
+}
+
+
+#html-list-box-sarki-id {
+    margin-top: 30px;
+}
+
+.adminnot {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #676d79;
+    float: right;
+    margin-top: 30px;
+    margin-right: 270px;
+}
+
+.boktan-sarki {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #676d79;
+}
+
+#boktan-sarki-id {
+    filter: blur(5px);
+}
+
+.boktan-sarki-header {
+    float: left;
+    font-size: 18px;
+    margin-top: 35px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-demo-usercags*/
+
+#html-list-demo-user-cags {
+    color: #fff;
+    float: right;
+    margin-top: 70px;
+    margin-right: 866px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;  /* Fazla margin eklememek için */
+  }
+  
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+        /*  --- RESPONSİVE BÖLÜMÜ ----  bu resposinve kendi şahsi telefonum için yapıldı (realme 5i)*/ 
+
+@media (max-width: 768px) {
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html{
+        width: 350px;
+    }
+
+    body{
+        width: 350px;
+        display: grid;
+    }
+
+    .ust-bolum-hide{
+        display: none;
+    }
+
+    .ustDiv{
+        width: 350px;
+    }
+
+    #logo1{
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-left: 0px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    #text1{
+        font-size: 40px;
+        margin-top: 15px;
+    }
+
+    .search-box{
+        display: none;
+    }
+
+    .search-btn{
+        display: none;
+    }
+
+    .html-list-box{
+        display: none;
+    }
+
+    .orta-kisim-class{
+        width: 768px;
+        height: 100px;
+        
+    }
+
+  }
